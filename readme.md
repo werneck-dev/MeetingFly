@@ -5,7 +5,7 @@
 
 A documentação para a estrutura pode ser encontrada no site [API MeetingFly](https://documenter.getpostman.com/view/9149332/SVtZvm6x?version=latest#352ad6e9-f8da-4050-9b04-e1793e34e09b).
 
-## Documentação Oficial
+## Configurações
 
 Faça o clone do projeto:
 git clone https://github.com/werneck-dev/MeetingFly.git

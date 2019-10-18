@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 17-Out-2019 às 20:58
+-- Generation Time: 17-Out-2019 às 23:22
 -- Versão do servidor: 10.1.37-MariaDB
 -- versão do PHP: 7.3.0
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `apifly`
 --
+CREATE DATABASE IF NOT EXISTS `apifly` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `apifly`;
 
 -- --------------------------------------------------------
 

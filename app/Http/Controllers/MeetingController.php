@@ -58,8 +58,10 @@ class MeetingController extends Controller
                 $meeting = DB::table('meetings')        
                 ->whereBetween('start_meeting', [$request->start_meeting, $request->finish_meeting])
                 ->where('id_meeting_room', '=', $request->id_meeting_room)
+                ->where('situation', '=', 'A')
                 ->orwhereBetween('finish_meeting', [$request->start_meeting, $request->finish_meeting])
                 ->where('id_meeting_room', '=', $request->id_meeting_room)
+                ->where('situation', '=', 'A')
                 ->get();
 
                 if(count($meeting) > 0 and $request->id_meeting_room == $meeting[0]->id_meeting_room)
@@ -109,7 +111,7 @@ class MeetingController extends Controller
         
         if($answer == 1)
         {
-            return response()->json(['status' => '200 (OK)', 'message' => 'Reunião inexistente'], 200);        
+            return response()->json(['status' => '200 (OK)', 'message' => 'Reunião cancelada'], 200);        
         }
         else
         {
