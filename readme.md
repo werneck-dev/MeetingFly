@@ -22,7 +22,7 @@ A documentação para a estrutura pode ser encontrada no site [API MeetingFly](h
 
 #### 2 - Importe o DUMP do banco de dados, localizado na pasta "db" para criar sua base de dados.
 
-configuração padrão de conexão (Altere conforme sua configuração)
+Para começar a usar a API precisamos de uma conexão com o seu banco de dados.
 //Arquivo .env
 `{`
 `DB_CONNECTION=mysql`
@@ -40,6 +40,9 @@ executar o comando na raiz do seu projeto
 `composer update`
 
 
+## Créditos 
+
+Raul Werneck (Developer)
 
 ## Licença
 
