@@ -9,7 +9,14 @@ A documentação para a estrutura pode ser encontrada no site [API MeetingFly](h
 
 ## Requisitos
 
-* Servidor apache com PHP>= 7.2
+* PHP> = 7.2
+* Extensão PHP OpenSSL
+* Extensão PHP DOP
+* Extensão PHP Mbstring
+
+### Softwares recomendados
+
+* Xampp 
 
 * Composer (Gerenciador de Dependêcias para PHP)
 
