@@ -17,7 +17,7 @@ class MeetingController extends Controller
      */
     public function __construct()
     {
-        //
+        
     }
 
     public function getMeeting()
@@ -31,9 +31,7 @@ class MeetingController extends Controller
         })
         ->get();
 
-            return response()->json($answer, 200);
-        
-        
+            return response()->json($answer, 200);  
     }
 
     public function store(Request $request)
@@ -64,21 +62,13 @@ class MeetingController extends Controller
                 ->where('situation', '=', 'A')
                 ->get();
 
-                if(count($meeting) > 0 and $request->id_meeting_room == $meeting[0]->id_meeting_room)
+                if(count($meeting) > 0)
                 {
                 
                     return response()->json(['status' => '400 (Not Found)', 'message' => 'Horario para reuniao indisponivel'], 400);  
                 
                 }
-                
-                if(count($meeting) > 0 and $request->id_meeting_room != $meeting[0]->id_meeting_room){
 
-                    $meeting = new Meeting();
-
-                    $answer = $meeting->create($request->all());
-
-                    return response()->json($answer, 201);
-                }
                 if(count($meeting) == 0)
                 {
                     $meeting = new Meeting();
@@ -96,7 +86,7 @@ class MeetingController extends Controller
         }                  
     }
 
-    public function cancel(Request $request) //FALTA AS VALIDAÇÕES status que ja esta C
+    public function cancel(Request $request)
     {
         $meeting = new Meeting();
 
