@@ -1,9 +1,20 @@
 # API MeetingFly
 
+API desenvolvida para ao processo de recrutamento de desenvolvedor full stack na LiberFly
 
 ## Documentação Oficial
 
 A documentação para a estrutura pode ser encontrada no site [API MeetingFly](https://documenter.getpostman.com/view/9149332/SVtZvm6x?version=latest#352ad6e9-f8da-4050-9b04-e1793e34e09b).
+
+
+## Requisitos
+
+* Servidor apache com PHP>= 7.2
+
+* Composer (Gerenciador de Dependêcias para PHP)
+
+* Postman
+
 
 ## Configurações
 
@@ -24,8 +35,9 @@ configuração padrão de conexão (Altere conforme sua configuração)
 
 #### 3 - Download das dependencias do projeto
 
-`composer update`
+executar o comando na raiz do seu projeto
 
+`composer update`
 
 
 
