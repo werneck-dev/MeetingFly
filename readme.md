@@ -7,12 +7,25 @@ A documentação para a estrutura pode ser encontrada no site [API MeetingFly](h
 
 ## Configurações
 
-Faça o clone do projeto:
-git clone https://github.com/werneck-dev/MeetingFly.git
+#### 1 - Faça o clone do projeto: https://github.com/werneck-dev/MeetingFly.git ou faça download do zip e extraia na pasta de seu servidor
 
-Crie o banco de dados:
+#### 2 - Importe o DUMP do banco de dados, localizado na pasta "db" para criar sua base de dados.
 
-Importar usando o DUMP do banco de dados, localizado na pasta "db".
+configuração padrão de conexão (Altere conforme sua configuração)
+//Arquivo .env
+`{`
+`DB_CONNECTION=mysql`
+`DB_HOST=127.0.0.1`
+`DB_PORT=3306`
+`DB_DATABASE=apifly`
+`DB_USERNAME=root`
+`DB_PASSWORD=`
+`}`
+
+#### 3 - Download das dependencias do projeto
+
+`composer update`
+
 
 
 
