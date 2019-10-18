@@ -1,21 +1,21 @@
-# Lumen PHP Framework
+# API MeetingFly
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Documentação Oficial
 
-## Official Documentation
+A documentação para a estrutura pode ser encontrada no site [API MeetingFly](https://documenter.getpostman.com/view/9149332/SVtZvm6x?version=latest#352ad6e9-f8da-4050-9b04-e1793e34e09b).
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+## Documentação Oficial
 
-## Security Vulnerabilities
+Faça o clone do projeto:
+git clone https://github.com/werneck-dev/MeetingFly.git
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+Crie o banco de dados:
 
-## License
+Importar usando o DUMP do banco de dados, localizado na pasta "db".
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Licença
+
+A estrutura Lumen é um software de código aberto licenciado sob a [MIT license](https://opensource.org/licenses/MIT).
